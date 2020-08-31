@@ -1,0 +1,9 @@
+@import "../theme.css";
+
+.About-content {
+    text-align: left;
+}
+
+.About-content li {
+    list-style-type: none;
+}

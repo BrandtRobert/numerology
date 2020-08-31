@@ -1,0 +1,23 @@
+.Nav-link {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Nav-link:hover {
+    color: var(--text-color-alt);
+    font-weight: bold;
+    border-bottom-style: solid;
+}
+
+.Top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.Top-nav * {
+    margin-left: calc(10px + 5vw);
+    margin-right: calc(10px + 5vw);
+}
